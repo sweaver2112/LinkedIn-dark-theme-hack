@@ -16,4 +16,5 @@ style.innerHTML = st
 .replace(/#000|#fff/g, (m)=>{return m=="#fff"?"#000":"#fff"})
 .replace(/#([fe])(.)([fe])(.)([fe])(.)/g, `#${randoDark()}$2${randoDark()}$4${randoDark()}$6`)
 .replace(/\d+(?=,)/g, (m)=>{return shift255(m)})
-document.body.appendChild(style);```
+document.body.appendChild(style);
+```
