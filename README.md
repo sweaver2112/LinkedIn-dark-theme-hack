@@ -1,4 +1,4 @@
-# linkedIn-dark-theme-hack
+# LinkedIn-dark-theme-hack
 a snippet that turns LinkedIn into a random Dark Mode
 
 ```javascript
